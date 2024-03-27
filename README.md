@@ -13,11 +13,11 @@ _**Disclaimer**: This is a fictitious e-commerce website created for educational
 
 ## Key Features
 
--   🎂 Search/Filter: Browse through a delectable assortment of cakes for any occasion!
--   📝 Registration: Create an account with us to start ordering cakes!
--   🔒 Authentication: Our system ensures the security and protection of user credentials and personal information.
--   🛒 Shopping Cart: Easily add your favorite cakes to your cart, manage quantities, and proceed to checkout with ease.
--   🛠️ Administration: Dedicated admin page to add, edit, or delete products, giving admins full control over the product catalog.
+-   🎂 **Search/Filter**: Browse through a delectable assortment of cakes for any occasion!
+-   📝 **Registration**: Create an account with us to start ordering cakes!
+-   🔒 **Authentication**: Our system ensures the security and protection of user credentials and personal information.
+-   🛒 **Shopping Cart**: Easily add your favorite cakes to your cart, manage quantities, and proceed to checkout with ease.
+-   🛠️ **Administration**: Dedicated admin page to add, edit, or delete products, giving admins full control over the product catalog.
 
 ## Demo
 

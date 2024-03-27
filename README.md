@@ -1,69 +1,49 @@
-# Sweet Bee Cakes (CS 6314)
-Web Programming Languages FullStack Project
+# Sweet Bee Cakes
 
-To view more project details and meeting notes, please visit the [Wiki](https://github.com/junaidh1/CS6314/wiki).
+**Sweet Bee Cakes** is a delightful e-commerce website designed to provide a seamless and enjoyable shopping experience for bakery enthusiasts, at the local bakery shop.
 
+This project was completed in the following setting:
 
-## Requirements
+-   University: [University of Texas at Dallas](https://www.utdallas.edu/)
+-   Course: [CS 6314 (Web Programming Languages)](https://catalog.utdallas.edu/2023/graduate/courses/cs6313)
+-   Professor: [Meghana Maadugundu](https://www.linkedin.com/in/meghana-spurthi)
+-   Semester: Fall 2023
 
-For development, you will need Node.js and a package manager, npm, installed on your system.
+_**Disclaimer**: This is a fictitious e-commerce website created for educational purposes. It does not represent an actual business._
 
-### Installation
+## Key Features
 
-We will need to install `nvm`, which is a Node Version Manager. It allows you to have different Node versions and switch between them easily. It also automatically installs npm for you, too.
+-   🎂 Search/Filter: Browse through a delectable assortment of cakes for any occasion!
+-   📝 Registration: Create an account with us to start ordering cakes!
+-   🔒 Authentication: Our system ensures the security and protection of user credentials and personal information.
+-   🛒 Shopping Cart: Easily add your favorite cakes to your cart, manage quantities, and proceed to checkout with ease.
+-   🛠️ Administration: Dedicated admin page to add, edit, or delete products, giving admins full control over the product catalog.
 
-- [Windows (WSL)](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
-- [Mac/Linux](https://github.com/nvm-sh/nvm)
+## Demo
 
-Make sure you verify Node and npm are correctly installed on your system with the following commands:
+**Home Page**
+![](screenshots/home.png)
 
-```
-node --version
-npm --version
-```
+**Product Page**
+![](screenshots/product.png)
 
-*If you are on Windows and don't have WSL installed, I would recommend doing that, since it will give you a Linux-flavor (ex: Ubuntu) development environment, and it will make developing and collaborating on the project easier (i.e. everyone will use the same terminal commands to setup/run the project). Here are instructions on how to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).*
+**Searching**
+![](screenshots/search.png)
 
+**Filtering**
+![](screenshots/filter.png)
 
-## Project Setup
+**Sign In**
+![](screenshots/signin.png)
 
-After cloning this project to your filesystem, you need to install the pre-existing dependencies located in the `package.json` files. There are a total of 3 of them: `project folder, frontend folder, and backend folder`. Project folder packages apply to the entire project (*any packages frontend and backend will use*), while frontend and backend have their own package files, so that we don't mix the dependencies between each other.
+**Sign Up**
+![](screenshots/signup.png)
 
-To install a single `package.json` file's packages, make sure you are in the folder it is located in, and type:
+**Cart Page**
+![](screenshots/cart.png)
 
-`npm install`
+**Checkout Page**
+![](screenshots/checkout.png)
 
-
-## Project Structure
-
-The project is split into two main folders: `frontend` and `backend`. Here's an explanation of each folder:
-
-- `frontend/`
-    - `public/`: This directory holds static assets like HTML files, images, and fonts. The entry point, usually `index.html`, resides here.
-    - `src/`: This directory contains the main source code for your frontend application (CSS and JS files).
-- `backend/`
-    - `config/`: This directory holds configuration files for your backend, such as database connection settings, environment variables, and middleware configurations.
-        - Store environment-specific configurations (e.g., database credentials, API keys) in a .env file and use the `dotenv` package to load them into your application.
-    - `controllers/`: Each route or resource in your application can have its own controller file. These files contain the logic for handling requests, processing data, and generating responses.
-    - `models/`: This directory contains the database models or schemas for your application. Each model represents a specific data structure and handles interactions with the database.
-    - `routes/`: The API routes for your application reside in this directory. Each route file is responsible for defining the endpoints, mapping them to the appropriate controller functions, and handling request validation and authentication.
-    - `server.js`: This file acts as the entry point for your backend application. It sets up the Express server, establishes database connections, and defines middleware configurations.
-
-
-## Branching Method
-
-We will adopt a simiplistic branching method to allow some organization, while not restricting development time.
-
-- `main` branch: This branch is the stable production-ready branch. It should always contain working code that can be deployed.
-- `dev` branch: This branch serves as the integration branch for ongoing development. Features and bug fixes are merged into this branch. **Majority of code development will be coming from this branch**.
-    - `feat` branches: For each feature or task, create a feature branch from `dev`. The branch name should be descriptive, like `feat/user-signup` or `feat/cart-functionality`. Develop the feature in this branch and submit a pull request (PR) back to the `dev` branch when it's ready for review.
-    - `bugfix` branches: Similar to feature branches, create branches for bug fixes from `dev`. Use branch names like `bugfix/login-issue`.
-
-
-## Run The Project
-
-Make sure you are in the project folder.
-
-- To run the frontend code only: `npm run client`
-- To run the backend code only: `npm run server`
-- To run both: `npm start`
+**Admin Page**
+![](screenshots/admin.png)
